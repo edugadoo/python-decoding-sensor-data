@@ -14,6 +14,6 @@ def load_sensor_data():
             for row in data_reader:
                 sensor_data.append(row)
         
-        return sensor_data
+    return sensor_data
     
     
