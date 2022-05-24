@@ -3,7 +3,7 @@ import glob
 import csv
 
 def load_sensor_data():
-    
+    os.chdir('C:/GitHub/python-decoding-sensor-data')
     sensor_data = []
     sensor_files = glob.glob(os.path.join(os.getcwd(),'datasets','*.csv'))
     
